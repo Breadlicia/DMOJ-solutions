@@ -59,8 +59,8 @@
 
 # String slicing
 
-name = "John Smith"
+# name = "John Smith"
 
-first_name = name[0]
+# first_name = name[0]
 
-print(first_name)
+# print(first_name)
