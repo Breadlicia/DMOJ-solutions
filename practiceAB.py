@@ -1,5 +1,5 @@
-FinalA=0
-FinalB=0
+finalA=0
+finalB=0
 
 for x in range(1,int(input())+1):
     A=0
