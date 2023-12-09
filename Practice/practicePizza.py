@@ -5,7 +5,7 @@ ovens=int(start[2])
 minutes=int(start[3])
 
 for x in range(n):
-    a #unfinished
+    print('')
 
 print(str(n))
 print(str(slices))
