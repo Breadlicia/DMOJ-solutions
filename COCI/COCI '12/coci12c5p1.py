@@ -1,8 +1,9 @@
 Song=input()
-Last=len(Song)
+Last=len(Song) # also doesn't work now because the element in the array will be counted but whatever
 Last-=1
 # Song=Song.replace("|","")
 # divide into array, and count first character of everything in the array
+Song=Song
 A1=Song.count('A')
 A2=Song.count('D')
 A3=Song.count('E')
