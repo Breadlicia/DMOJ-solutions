@@ -1,9 +1,10 @@
 Song=input()
-Last=len(Song) # also doesn't work now because the element in the array will be counted but whatever
-Last-=1
-# Song=Song.replace("|","")
-# divide into array, and count first character of everything in the array
-Song=Song
+SongUnedited=Song
+Song=Song.split('|')
+Song=[word[0] for word in Song]
+Song=''.join(Song)
+Length=len(SongUnedited)
+Length-=1
 A1=Song.count('A')
 A2=Song.count('D')
 A3=Song.count('E')
@@ -18,7 +19,7 @@ if Atotal>Ctotal:
 elif Ctotal>Atotal:
     print('C-dur')
 else:
-    if Song[Last]=='A':
+    if SongUnedited[Length]=='A':
         print('A-mol')
-    if Song[Last]=='C':
+    elif SongUnedited[Length]=='C':
         print('C-dur')
